@@ -153,7 +153,7 @@ class _EchartsState extends State<Echarts> {
 
   @override
   void dispose() {
-    _controller?.clearCache();
+    // _controller?.clearCache();
     super.dispose();
   }
 
